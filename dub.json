@@ -1,7 +1,8 @@
 {
 	"name": "flatbuffers",
 	"description": "D implementation of Google Flatbuffers.",
-	"copyright": "Apache License Version 2.0y",
-	"authors": ["dsby"],
+	"copyright": "copyright 2016 putao.com",
+	"license": "Apache-2.0",
+	"authors": ["putao.com dlang team"],
 	"targetType": "library"
 }
