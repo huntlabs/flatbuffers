@@ -1,6 +1,6 @@
 // automatically generated, do not modify
 
-module myGame.sample.color;
+module mygame.sample.color;
 
 enum Color : ubyte
 {

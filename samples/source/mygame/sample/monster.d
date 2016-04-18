@@ -1,13 +1,13 @@
 // automatically generated, do not modify
 
-module myGame.sample.monster;
+module mygame.sample.monster;
 
-import google.flatbuffers;
+import flatbuffers;
 
-import myGame.sample.vec3;
-import myGame.sample.color;
-import myGame.sample.weapon;
-import myGame.sample.equipment;
+import mygame.sample.vec3;
+import mygame.sample.color;
+import mygame.sample.weapon;
+import mygame.sample.equipment;
 
 struct Monster {
   mixin Table!Monster;

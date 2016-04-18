@@ -1,8 +1,8 @@
 // automatically generated, do not modify
 
-module myGame.sample.vec3;
+module mygame.sample.vec3;
 
-import google.flatbuffers;
+import flatbuffers;
 
 struct Vec3 {
   mixin Struct!Vec3;

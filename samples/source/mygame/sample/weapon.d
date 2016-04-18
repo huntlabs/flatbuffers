@@ -1,8 +1,8 @@
 // automatically generated, do not modify
 
-module myGame.sample.weapon;
+module mygame.sample.weapon;
 
-import google.flatbuffers;
+import flatbuffers;
 
 struct Weapon {
   mixin Table!Weapon;

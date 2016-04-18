@@ -1,6 +1,6 @@
 // automatically generated, do not modify
 
-module myGame.sample.equipment;
+module mygame.sample.equipment;
 
 enum Equipment : ubyte
 {
