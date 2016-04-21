@@ -18,7 +18,7 @@ struct Monster {
   @property   short hp() { int o = __offset(8); return o != 0 ? _buffer.get!short(o + _pos) : 100; }
   @property   Nullable!string name() { int o = __offset(10); return o != 0 ? Nullable!string(__string(o + _pos)) : Nullable!string.init; }
   auto inventory() { return Iterator!(Monster, ubyte, "inventory")(this); }
-    ubyte inventory(int j) { int o = __offset(14); return o != 0 ? _buffer.get!ubyte(__dvector(o) + j * 1) : 0; }
+    ubyte inventory(int j) { int o = __offset(14); return o != 0 ? _buffer.get!ubyte(__dvector(o) + j * 1)  : 0; }
   @property int inventoryLength() { int o = __offset(14); return o != 0 ? __vector_len(o) : 0; }
   @property   ubyte color() { int o = __offset(16); return o != 0 ? _buffer.get!ubyte(o + _pos) : 2; }
   auto weapons() { return Iterator!(Monster, Weapon, "weapons")(this); }

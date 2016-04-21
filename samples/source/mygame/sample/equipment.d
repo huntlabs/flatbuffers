@@ -5,6 +5,6 @@ module mygame.sample.equipment;
 enum Equipment : ubyte
 {
    NONE = 0,
-   weapon = 1,
+   Weapon = 1,
 }
 

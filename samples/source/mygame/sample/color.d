@@ -4,8 +4,8 @@ module mygame.sample.color;
 
 enum Color : ubyte
 {
-   red = 0,
-   green = 1,
-   blue = 2,
+   Red = 0,
+   Green = 1,
+   Blue = 2,
 }
 
