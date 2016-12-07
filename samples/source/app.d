@@ -1,5 +1,5 @@
 import std.stdio;
-import mygame.sample;
+import MyGame.Sample;
 //import std.file;
 import std.conv;
 
@@ -11,11 +11,11 @@ void main()
 	
 	auto name = builder.createString("MyMonster");
 	
-	int[] weaps;
+	uint[] weaps;
 	foreach ( i ; 0..3){
             weaps ~= Weapon.createWeapon(builder,builder.createString("Weapon." ~ i.to!string()),cast(short)i);
 	}
-	int t = Monster.createWeaponsVector(builder,weaps);
+	uint t = Monster.createWeaponsVector(builder,weaps);
 	
 	ubyte[] invData = cast(ubyte[])("MyMonster");	
 	auto inventory = Monster.createInventoryVector(builder, invData); //todo：数组错误
